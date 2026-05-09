@@ -1,0 +1,13 @@
+# ──────────────────────────────────────────────────────────────────────────
+#  Gun Detection Security System — Python Dependencies
+#  Install all at once:  pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────────────
+
+# Core computer-vision library — detection, drawing, video I/O, morphology
+opencv-python>=4.8.0
+
+# Provides imutils.resize() which keeps aspect ratio while resizing frames
+imutils>=0.5.4
+
+# Fast numerical arrays — frame data is stored as numpy ndarrays
+numpy>=1.24.0
